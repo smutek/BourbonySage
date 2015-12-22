@@ -1,0 +1,40 @@
+// Grid system
+$grid-columns: 12;
+$sidebar-columns: 4;
+$max-width: 1170px;
+
+// Breakpoints
+$small-screen: 480px;
+$medium-screen: 620px;
+$large-screen: 955px;
+$wide-screen: 1200px;
+
+$small-screen-up: new-breakpoint(min-width $small-screen);
+$medium-screen-up: new-breakpoint(min-width $medium-screen);
+$large-screen-up: new-breakpoint(min-width $large-screen);
+$wide-screen-up: new-breakpoint(min-width $wide-screen);
+
+// layout
+
+// wraps and rows
+// Base structure
+.container {
+  @include outer-container;
+  .main,
+  .sidebar {
+    // @todo: Do I need this?
+    @include row;
+  }
+}
+
+@include media($medium-screen-up) {
+  .main {
+    @include span-columns($grid-columns);
+    .sidebar-primary & {
+      @include span-columns($grid-columns - $sidebar-columns)
+    }
+  }
+  .sidebar {
+    @include span-columns($sidebar-columns);
+  }
+}
