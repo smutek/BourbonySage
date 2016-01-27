@@ -1,0 +1,24 @@
+// layout
+
+// wraps and rows
+// Base structure
+.container {
+  @include outer-container;
+  .main,
+  .sidebar {
+    // @todo: Do I need this?
+    @include row;
+  }
+}
+
+@include media($medium-screen-up) {
+  .main {
+    @include span-columns($grid-columns);
+    .sidebar-primary & {
+      @include span-columns($grid-columns - $sidebar-columns)
+    }
+  }
+  .sidebar {
+    @include span-columns($sidebar-columns);
+  }
+}
