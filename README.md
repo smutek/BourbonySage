@@ -1,7 +1,5 @@
-#BourbonySages Rex
-BourbonySages Rex is a fork of [Sage](https://github.com/roots/sage) that uses Bourbon, Neat, & Bitters in place of Bootstrap.
-
-The name is an unfortunate amalgam of Bourbon, Sage, and Tyrannosaurus Rex that I came up with because I am tired and didn't want to call it Bourbon Sage. It makes absolutely no sense. I'll probably change it at some point. 
+#BourbonSage
+BourbonSage is a fork of [Sage](https://github.com/roots/sage) that uses Bourbon, Neat, & Bitters in place of Bootstrap.
 
 Bourbon & Neat are included via Bower. [Bitters is not a library](https://github.com/thoughtbot/bitters/pull/32#issuecomment-34886727), like Bourbon and Neat, [and was built to be changed](https://github.com/thoughtbot/bitters/issues/127#issuecomment-63363351). As such it is included directly in the themes scss files.
 
