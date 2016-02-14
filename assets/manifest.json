@@ -22,6 +22,6 @@
     }
   },
   "config": {
-    "devUrl": "http://local.wordpress.dev"
+    "devUrl": "http://example.dev"
   }
 }
