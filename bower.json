@@ -11,5 +11,12 @@
     "neat": "~1.7.2",
     "normalize-css": "normalize.css#~3.0.3"
   },
-  "overrides": {}
+  "overrides": {
+    "bourbon": {
+      "main": [
+        "./app/assets/stylesheets/_bourbon.scss",
+        "../../assets/styles/grid-settings.scss"
+      ]
+    }
+  }
 }
