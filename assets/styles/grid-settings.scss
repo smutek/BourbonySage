@@ -1,7 +1,7 @@
 @import '../../bower_components/neat/app/assets/stylesheets/neat-helpers';
 
 // Displays the visual grid when set to true.
-$visual-grid: true;
+$visual-grid: false;
 //Sets the visual grid color
 $visual-grid-color: #eee;
 // Sets the z-index property of the visual grid. Can be back (behind content) or front (in front of content).
