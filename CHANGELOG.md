@@ -1,3 +1,9 @@
+### 8.5.1: February 21st, 2017
+* Up to date with Sage 8.5.1
+  * Update gulp-imagemin options ([#1839](https://github.com/roots/sage/pull/1839))
+  * Add error handling to `scripts` and `styles` gulp tasks ([#1832](https://github.com/roots/sage/pull/1832))
+  * Update to Bootstrap 4.0.0-alpha.6  ([#1832](https://github.com/roots/sage/pull/1832))
+
 ### 1.2.2 : February 27, 2016
 
 Fix [Issue 3](https://github.com/smutek/BourbonySage/issues/3), allowing visual grid to change as required by layout. Add Omega Reset mixin, merge latest from Sage Master.
